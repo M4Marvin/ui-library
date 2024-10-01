@@ -1,10 +1,14 @@
-/**
- * Run `build` or `dev` with `SKIP_ENV_VALIDATION` to skip env validation. This is especially useful
- * for Docker builds.
- */
-await import("./src/env.js");
+import './src/env.js';
+import nextMDX from '@next/mdx';
+
+const withMDX = nextMDX({
+    extension: /\.mdx$/,
+});
 
 /** @type {import("next").NextConfig} */
-const config = {};
+const config = {
+    reactStrictMode: true,
+    pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'mdx', 'md'],
+};
 
-export default config;
+export default withMDX(config);
