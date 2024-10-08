@@ -37,6 +37,6 @@
     "**/*.cjs",
     "**/*.js",
     ".next/types/**/*.ts"
-, "src/app/showcase/(gallery)"  ],
+, "src/app/(app)/showcase/(gallery)"  ],
   "exclude": ["node_modules"]
 }

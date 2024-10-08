@@ -1,0 +1,22 @@
+{
+    "component1": {
+      "title": "Bubble",
+      "folder_name": "bubble",
+      "mini_description": "Framer Motion based animation.",
+      "media": {
+          "type": "gif",
+          "url": "/designs/component1/image.gif"
+        },
+        "description": "A dynamic full-screen design using Framer Motion."
+    },
+    "component2": {
+      "title": "Pure CSS Background",
+      "folder_name": "component2",
+      "mini_description": "CSS-only responsive design.",
+      "media": {
+          "type": "image",
+          "url": "/designs/component2/image.png"
+        },
+    "description": "A beautiful, responsive CSS grid layout."
+    }
+}

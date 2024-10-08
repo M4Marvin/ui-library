@@ -85,7 +85,7 @@ export default function RootLayout({
                 {children}
               </div>
             </div>
-            <TailwindIndicator />
+            {/* <TailwindIndicator /> */}
             <Toaster />
           </ThemeProvider>
         </body>
